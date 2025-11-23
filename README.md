@@ -29,4 +29,24 @@ The project includes training, prediction, and a beautiful **Streamlit web UI** 
 ---
 
 ## 📂 Project Structure
-
+fake-news-detector-bert/
+│
+├── data/
+│ └── news.csv
+│ └── news_dataset.csv
+│ └── indian_fake_news_dataset.csv # optional (extra)
+│
+├── model/
+│ └── bert/
+│ ├── config.json
+│ ├── pytorch_model.bin # BERT weights (not uploaded to GitHub)
+│ ├── tokenizer.json
+│
+├── src/
+│ ├── train_bert.py # BERT training script
+│ ├── predict_bert.py # Prediction script
+│ ├── streamlit_app.py # Streamlit UI
+│
+├── .gitignore # Prevents large model files from being tracked
+├── requirements.txt
+└── README.md
