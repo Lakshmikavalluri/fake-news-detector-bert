@@ -1,0 +1,14 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore large ML model
+model/bert/
+model/*.bin
+model/*.safetensors
+
+# Ignore cache
+__pycache__/
+*.pyc
+
+# Ignore dataset files
+data/*.csv
